@@ -76,7 +76,7 @@ google-workspace-genai-automation/
 |----------------|
 | ![](assets/email_output.png) |
 
-| Formula Generation | 
+| Formula Generation / Data Analysis | 
 |---------------------|
 | ![](assets/chart_demo.png) |
 
