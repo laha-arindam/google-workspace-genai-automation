@@ -40,7 +40,7 @@ This repo includes three separate automation tools:
 ---
 
 ## 📁 File Structure
-
+```plaintext
 google-workspace-genai-automation/
 ├── gmail_responder/
 │ └── Code.gs
@@ -55,7 +55,7 @@ google-workspace-genai-automation/
 │ ├── chart_demo.png
 │ └── slide_preview.png
 └── README.md
-
+```
 
 ---
 
