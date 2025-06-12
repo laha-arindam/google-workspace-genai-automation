@@ -38,7 +38,7 @@ This file contains curated examples of prompts used with the OpenAI GPT-4o API f
 
 --
 
-### 🔹 Prompt 2: Business pitch deck
+## 🔹 Prompt 2: Business pitch deck
 
 > "Generate a pitch deck for a startup that uses drones to deliver groceries in urban areas."
 
