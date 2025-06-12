@@ -50,6 +50,10 @@ google-workspace-genai-automation/
 │ └── Code.gs
 ├── prompts/
 │ └── example_prompts.md
+├── assets/
+│   ├── email_output.png
+│   ├── chart_demo.png
+│   └── slide_preview.png
 └── README.md
 ```
 
@@ -63,6 +67,14 @@ google-workspace-genai-automation/
 4. Insert your OpenAI API key where indicated.
 5. Authorize the script to run.
 6. Use the custom menu ("My Custom Tools") to launch features.
+
+---
+
+## 📸 Example Outputs
+
+| Email Response | Formula Generation | Slide Deck |
+|----------------|---------------------|------------|
+| ![](assets/email_output.png) | ![](assets/chart_demo.png) | ![](assets/slide_preview.png) |
 
 ---
 
