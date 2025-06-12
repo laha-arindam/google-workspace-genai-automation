@@ -1,9 +1,5 @@
-
-//  Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
-
-
-
-
+// Your OpenAI API key
+// const OPENAI_API_KEY = ''; // Replace with your actual API key
 
 
 /**
