@@ -72,10 +72,13 @@ google-workspace-genai-automation/
 
 ## 📸 Example Outputs
 
-| Email Response | Formula Generation | Slide Deck |
-|----------------|---------------------|------------|
-| ![](assets/email_output.png) | ![](assets/chart_demo.png) | ![](assets/slide_preview.png) |
+| Email Response | Formula Generation | 
+|----------------|---------------------|
+| ![](assets/email_output.png) | ![](assets/chart_demo.png) |
 
+| Slide Deck |
+|------------|
+| ![](assets/slide_preview.png) |
 ---
 
 ## 🔧 Possible Enhancements
