@@ -15,6 +15,7 @@ function autoReplyAndLogEmails() {
     thread.getMessages().forEach(message => {
       if (!message.isUnread() || message.getDate() < dateLimit) return;
       sendReply(message);
+      ensureHeaders(sheet);
       logEmail(sheet, message);
       message.markRead();
     });
@@ -33,6 +34,13 @@ function sendReply(message) {
    */
   const body = "I will get back to you.\n\nResit Sendag";
   GmailApp.sendEmail(message.getFrom(), "Re: " + message.getSubject(), body);
+}
+
+function ensureHeaders(sheet) {
+  const headers = ["Timestamp", "From", "Subject", "Body Preview"];
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(headers);
+  }
 }
 
 function logEmail(sheet, message) {
